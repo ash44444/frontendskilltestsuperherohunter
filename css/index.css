@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  /*
+  background-size: cover;
+  background-position: center; */
+/* background-repeat: no-repeat;
+  background-attachment: fixed; */
+*/
+
+/* --nav bar-- */
+#navbar {
+  background-color: hsl(210, 17%, 98%);
+  height: 4rem;
+  width: 100%;
+}
+#nav-content {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: xx-large;
+  padding-top: 1rem;
+}
+#nav-content li a {
+  text-decoration: none;
+  color: #343a40;
+  letter-spacing: 1px;
+  font-family: Marvel;
+}
+
+/* --main--*/
+form {
+  margin-top: 20vh;
+  margin-left: 35vw;
+
+  /* left: 30%; */
+}
+#search-character {
+  height: 1rem;
+  width: 30rem;
+  font-family: Marvel;
+  padding: 30px;
+  margin-top: 150px;
+  font-size: x-large;
+  background-color: #817d7d;
+  border: 2px #28a745;
+  color: #f8f9fa;
+}
+
+#search-hero {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 5px;
+  font-family: Marvel;
+
+  font-size: x-large;
+  background-color: #f8f9fa;
+  border: 2pxhsl (220, 3%, 77%) solid;
+  color: #303233;
+}
+
+/* --superhero container-- */
+#superhero-list {
+  /* border: #343a40  solid 2px; */
+  /* width: 100%; */
+  height: fit-content;
+  position: relative;
+  top: 20vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#superhero {
+  /* border: #343a40  solid 2px; */
+  border-radius: 2rem;
+  width: max-content;
+  color: #343a40;
+  font-family: Marvel;
+  font-size: x-large;
+  background-color: rgb(12, 11, 11);
+  min-width: 320px;
+  border: 1px solid#343a40;
+  margin: 10px;
+  padding: 0.5rem;
+  height: max-content;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  /* flex-direction: row; */
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.6rem;
+}
+
+#fav {
+  height: 3.3rem;
+  width: 6rem;
+  border-radius: 50px;
+  font-family: Marvel;
+  font-size: 1.2rem;
+  /* padding: .3rem 0 .3rem 0; */
+  /* margin-top: .5rem; */
+  /* font-size: x-large; */
+  background-color: #f8f9fa;
+  border: 2px#343a40 solid;
+  color: #343a40;
+}
+
+#more-info {
+  height: 3.3rem;
+  width: 6rem;
+  border-radius: 50px;
+  font-family: Marvel;
+  font-size: 1.2rem;
+  /* padding: .3rem 0 .3rem 0; */
+  /* margin-top: .5rem; */
+  /* font-size: x-large; */
+  background-color: #f8f9fa;
+  border: 2px#343a40 solid;
+  color: #343a40;
+}
+/* --page title-- */
+#title {
+  /* width: 4rem; */
+  background-color: #f8f9fa;
+  text-align: center;
+  color: #343a40;
+  font-family: Marvel;
+  position: relative;
+  font-size: 3rem;
+
+  font-weight: bolder;
+  top: 10vh;
+}
+#pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 50px;
+}
+button {
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#details {
+  border: 2px solid#343a40;
+  border-radius: 2rem;
+  height: max-content;
+  padding: 1rem;
+  width: max-content;
+  background-color: #f8f9fa;
+  position: relative;
+  top: 25vh;
+  left: 30%;
+  text-align: left;
+}
+
+#power {
+  color: #343a40;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  width: 50vw;
+}
+
+#power span {
+  font-size: 2rem;
+}
+
+#bio span {
+  color: #343a40;
+  font-size: 2rem;
+}
+#bio {
+  color: #343a40;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 100px;
+}
